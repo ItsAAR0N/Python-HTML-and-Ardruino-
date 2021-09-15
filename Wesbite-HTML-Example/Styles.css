@@ -1,0 +1,132 @@
+/* Main background / Consistent variables throughout */
+body {
+    background-image: url('Glasgow.jpg');
+    background-image: no-repeat;
+    background-size: auto;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none
+    
+}
+
+/* Remove any purple visited hyperlinks */
+
+a:visited { text-decoration: none; color:white; }
+
+/* ------------------------ TOP SECTION ----------------------------------- */
+
+/* Top section styles */
+.header h1 {
+   
+    /* Header font */
+    color: white;
+    font-size: 35px;   
+    text-align: left;  
+
+    /* Header black box */
+    border-radius: 10px;
+    background-color:black;
+    border: 0px solid black;
+    margin: 20px;
+    padding: 30px;
+    background: rgba(0, 0, 0, 0.7);
+    
+}
+
+/* Header image */
+.header img {
+    float: right;
+    width: 300px;
+    height: 50px;
+    object-fit: contain;
+    border-radius: 10px;
+}    
+
+/* ----------------------------- NAVIGATION BAR --------------------------- */
+
+/* Set top navigation black box */
+.topnav {
+    border-radius: 10px;
+    background-color:black;
+    border: 0px solid black;
+    margin: 20px;
+    padding: 13px;
+    background: rgba(0, 0, 0, 0.7);
+
+}
+
+/* Set hyperlink colours */
+.topnav a {
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    text-decoration: none;
+    
+}
+
+/* Add a color whenever mouse hovers over the link */
+.topnav a:hover {
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+}
+
+/* -------------------------------- MIDDLE SECTION ------------------------------ */
+
+/* Background */
+.middlesection {
+    border-radius: 10px;
+    background-color:black;
+    border: 0px solid black;
+    margin: 20px;
+    padding: 13px;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+/* Text */
+.middlesection p {
+    color:white;
+    font-size: 15px;
+}
+
+/* For Images */
+.middlesection img {
+    border-radius: 10px;
+    width: 400px;
+    height: 300px;
+    /* Centre the image */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* ------------------------------- CONTACT SECTION ----------------------------------- */
+
+/* Background */
+.contactsection {
+    border-radius: 10px;
+    background-color:black;
+    border: 0px solid black;
+    margin: 20px;
+    padding: 13px;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+/* Text */
+.contactsection p {
+    color:white;
+    font-size: 15px;
+}
+
+/* For Images */
+.contactsection img {
+    border-radius: 10px;
+    width: 40px;
+    height: 25px;
+}
