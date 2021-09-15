@@ -1,6 +1,6 @@
 # A PROGRAM WHICH DETERMINES WHETHER OR NOT YOU CAN MAKE A CAKE BASED UPON THE INGREDIENTS YOU HAVE ALREADY.
 # GLOBAL VARIABLES
-
+#
 #   /$$$$$$                                             
 #  /$$__  $$                                              
 # | $$  \ $$  /$$$$$$   /$$$$$$   /$$$$$$  /$$$$$$$  
