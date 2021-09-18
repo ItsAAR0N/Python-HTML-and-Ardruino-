@@ -20,6 +20,7 @@ class ConvertDaysToFormat:
 
         self.Weeks = (self.days)/7 # Convert days to weeks (30/7 assumes no. of weeks)
         self.Weeks = round(self.Weeks,3)
+        
         self.Days = (self.days) 
 
     def displayResults(self):
